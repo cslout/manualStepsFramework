@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>type__c</fullName>
+    <description>category to group manual steps. Usually used to define if step needs to be executed before or after a metadata deployment.</description>
+    <externalId>false</externalId>
+    <label>type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>pre-deployment</fullName>
+                <default>false</default>
+                <label>pre-deployment</label>
+            </value>
+            <value>
+                <fullName>post-deployment</fullName>
+                <default>false</default>
+                <label>post-deployment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

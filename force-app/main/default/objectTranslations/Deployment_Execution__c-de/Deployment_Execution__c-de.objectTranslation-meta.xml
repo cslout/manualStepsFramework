@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Deployment Execution</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Deployment Execution</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Deployment Step-Layout</layout>
+        <sections>
+            <label><!-- Benutzerdefinierte Links --></label>
+            <section>Benutzerdefinierte Links</section>
+        </sections>
+        <sections>
+            <label><!-- Further Details --></label>
+            <section>Further Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Execute --></label>
+        <name>Execute</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Once finished, a Task cannot be reopened! --></errorMessage>
+        <name>Cannot_Reopen_If_Closed</name>
+    </validationRules>
+</CustomObjectTranslation>

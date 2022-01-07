@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open</fullName>
+    <columns>Release__c</columns>
+    <columns>NAME</columns>
+    <columns>Title__c</columns>
+    <columns>type__c</columns>
+    <columns>Content_Type__c</columns>
+    <columns>Execution_required__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Execution_required__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Open</label>
+</ListView>

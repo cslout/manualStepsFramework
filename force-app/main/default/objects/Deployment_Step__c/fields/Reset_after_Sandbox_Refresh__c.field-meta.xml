@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reset_after_Sandbox_Refresh__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates, if the manual step needs to executed again in a sandbox after it was refreshed/created.</description>
+    <externalId>false</externalId>
+    <label>Reset after Sandbox Refresh</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

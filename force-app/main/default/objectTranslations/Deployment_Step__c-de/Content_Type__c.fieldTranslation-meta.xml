@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Content Type --></label>
+    <name>Content_Type__c</name>
+    <picklistValues>
+        <masterLabel>anonymous apex</masterLabel>
+        <translation><!-- anonymous apex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>rich text</masterLabel>
+        <translation><!-- rich text --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>terminal</masterLabel>
+        <translation><!-- terminal --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

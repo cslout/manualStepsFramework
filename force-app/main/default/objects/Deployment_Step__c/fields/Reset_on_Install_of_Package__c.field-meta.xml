@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reset_on_Install_of_Package__c</fullName>
+    <description>Comma separated list of packages that will reset this step when it is installed.</description>
+    <externalId>false</externalId>
+    <label>Reset on Install of Package</label>
+    <length>2000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>
